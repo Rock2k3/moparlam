@@ -238,6 +238,16 @@ $(function() {
 		scrolling: 'visible'
 	});
 	
+	$('.fancybox_iframe').fancybox({
+		type:		'iframe',
+		fitToView:	false,
+		title:		false,
+		padding:	0,
+		closeBtn:	false,
+		scrolling: 'visible',
+		width: 690
+	});
+	
 });
 
 function initHint() {
