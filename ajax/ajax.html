@@ -1,0 +1,43 @@
+<div class="popup_ajax">
+	<header>
+		<div class="close">Esc или <a href="javascript:jQuery.fancybox.close();"><span>закрыть</span></a></div>
+		<h2>Вход в личный кабинет</h2>
+		<div class="Clear"></div>
+	</header>
+	<div style="display:none;">
+		<p>Большое погружение в жизнь города начинается с маленькой, но очень полезной и насыщенной лекции. Власть в столице – ее структура и функции, секреты успеха известных политиков , способы участия в жизни города и реализации своих идей – все это ты узнаешь на Вводном курсе.</p>
+		<div class="btns">
+			<a href="#" title="#" class="btn1">Ок</a>
+			<a href="#" title="#" class="btn2">Отмена</a>
+		</div>
+	</div>
+	<div>
+		<p>Большое погружение в жизнь города начинается с маленькой, но очень полезной и насыщенной лекции. Власть в столице – ее структура и функции, секреты успеха известных политиков , способы участия в жизни города и реализации своих идей – все это ты узнаешь на Вводном курсе.</p>
+		<div class="formLogin">
+			<div class="item">
+				<input type="text" class="textfield" hint="Логин">
+				<p><a href="#" title="#">Забыли пароль?</a></p>
+			</div>
+			<div class="item">
+				<input type="password" class="textfield" hint="Пароль">
+				<p><span class="chk"><input type="checkbox"></span> Запомнить</p>
+			</div>
+			<div class="item">
+				<input type="submit" class="btn1" value="Отправить">
+			</div>
+			<p><span class="txt1">Впервые у нас на сайте? Категорически рекомендуем <a href="#" title="#">зарегистрироваться</a></span></p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(e) {
+			initHint();
+			initChk();
+			
+			$(document).keydown(function(e) {
+				if(e.keyCode == 27) {
+					jQuery.fancybox.close();
+				}
+			});
+		});
+	</script>
+</div>
