@@ -29,7 +29,7 @@ body.whiteBg .bread_crumbs {background-color:#f4f6f7;}
 h1 {font:36px 'proxima_nova'; font-weight:bold; line-height:36px; margin-bottom:20px;}
 h2 {font:24px 'proxima_nova'; font-weight:bold; line-height:24px; margin-bottom:15px;}
 h3 {font:18px 'proxima_nova'; font-weight:bold; line-height:18px; margin-bottom:15px; color:#006ab2;}
-h4 {font:14px 'PTSans'; font-weight:bold; line-height:14px;}
+h4 {font:14px 'PTSans'; font-weight:bold; line-height:14px; margin-bottom:15px;}
 
 p {font-size:14px; margin-bottom:15px;}
 
