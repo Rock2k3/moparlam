@@ -361,6 +361,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .media .photoGalery_single .photoList1 li .img_s {width:206px; height:138px; overflow:hidden; position:relative; cursor:pointer;}
 .center .media .photoGalery_single .photoList1 li .arrow {background:url(../images/arrow1.png) no-repeat; width:45px; height:23px; position:absolute; bottom:0; left:50%; margin-left:-23px; display:none;}
 .center .media .photoGalery_single .photoList1 li .img_b {display:none;}
+.center .media .photoGalery_single .photoList1 li .img_b .loader {padding:20px 0;}
 .center .media .photoGalery_single .photoList1 li.active .arrow {display:block;}
 
 .center .media .photoGalery_single .photoList1 li.forBigImg {padding-top:10px; float:none; clear:both;}
@@ -789,6 +790,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .newsList.carousel1 {margin-bottom:15px; position:relative;}
 .center .newsList.carousel1 .arrowLeft {position:absolute; top:116px; left:-38px;}
 .center .newsList.carousel1 .arrowRight {position:absolute; top:116px; right:-38px;}
+.center .newsList.carousel1 .loader {padding:20px 0;}
 
 .center .documentsBlock {background-color:#ffffff; padding:25px 0; margin-bottom:15px;}
 .center .documentsBlock h2 {margin-bottom:30px; padding:0 20px;}
@@ -906,6 +908,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .photoVideoBlock .item .txt h3 {font:14px 'proxima_nova'; line-height:14px; font-weight:bold; margin:0; color:#000000;}
 .center .photoVideoBlock .item .txt p {font-size:12px; margin:10px 0 0 0;}
 .center .photoVideoBlock .more {font:18px 'proxima_nova'; text-align:center; border-top:1px solid #eceff1; padding:15px 0;}
+.center .photoVideoBlock .loader {padding:5px 0 20px 0;}
 
 .center .personal {padding:25px 0 0 0;}
 .center .personal header {background-color:#ec242c; font:36px 'proxima_nova'; font-weight:bold; color:#ffffff; line-height:56px; padding:0 20px; float:left;}
@@ -989,6 +992,8 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .media .anons .anons_single .block3 li .txt p {margin:0;}
 
 .center .media .anons .anons_single .block4 {background-color:#ffffff; padding:30px 170px 15px 175px;}
+
+.loader {padding-top:20px; text-align:center;}
 /*center*/
 
 /*checkbox*/
