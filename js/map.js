@@ -100,6 +100,10 @@ var areas = {
 $(function() {
 	if($('#mainPageMap').length){
 		
+		$pageMapContainer = $('#mainPageMap').parent();
+		$tempSvg = $('<div id="mainPageMapTemp" style="position:absolute; top:-500px; left:-500px;"></div>').append($('#mainPageMap'));
+		$('body').append($tempSvg);
+		
 		var r = Raphael('mainPageMap', 420, 575),
 		// Cоздаем новый объект canvas, в котором будет происходить рисование контуров 
 		attributes = {
@@ -117,7 +121,7 @@ $(function() {
 			
 			arr[obj.id] = area;
 			
-			var textattr = {'font':'', 'font-size':12, fill:'#0071bc', stroke:'none', 'font-family':'proxima_nova'};
+			var textattr = {'font-family':'proxima_nova', 'font-size':12, fill:'#0071bc', stroke:'none', 'font-family':'proxima_nova'};
 			var bbox = obj.getBBox();
 			var text = r.text(bbox.x + paths[area].nameShotX, bbox.y + paths[area].nameShotY, paths[area].nameShot).attr(textattr);
 			
@@ -162,7 +166,9 @@ $(function() {
 			});
 			
 		}// Проходим циклом все контуры (которые включены в объект paths), выводим их и устанавливаем атрибуты для них 
-	
+		
+		$pageMapContainer.append($('#mainPageMap'));
+		$('#mainPageMapTemp').remove();
 	}
 	
 	$('#changeAO').change(function(e) {
