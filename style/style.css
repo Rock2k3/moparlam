@@ -404,15 +404,19 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .media .videoItem2:hover .icoVideo1 {background:url(../images/ico_play1.png) no-repeat;}
 .center .media .videoItem2:hover .txt {color:#ffffff;}
 
-.center .socialBtns .item {display:inline-block; vertical-align:top; padding-right:15px;}
-.center .socialBtns .icoVK {background:url(../images/ico_vk1.png) no-repeat; display:inline-block; vertical-align:top;}
-
 .center .pages {font:14px 'proxima_nova'; line-height:26px; float:right; padding-top:30px;}
 .center .pages strong {display:inline-block; vertical-align:top; padding-right:5px;}
 .center .pages span {display:inline-block; vertical-align:top; color:#ffffff; padding:0 10px; height:26px; -moz-border-radius:13px; -webkit-border-radius:13px; border-radius:13px;}
 .center .pages span.active {background-color:#006ab2;}
 
 .center .socialBtns {padding-top:30px;}
+.center .socialBtns .item {display:inline-block; vertical-align:top; padding-right:15px;}
+.center .socialBtns table {width:auto; border-collapse:inherit; border-bottom:0; margin-bottom:0;}
+.center .socialBtns table th {background:none; padding:0;}
+.center .socialBtns table th:first-child {text-align:left; padding-left:0;}
+.center .socialBtns table td {padding:0; text-align:left; border-bottom:0;}
+.center .socialBtns table td:first-child {text-align:left; padding-left:0;}
+.center .socialBtns table td p {margin:0;}
 
 .center .authorList1 {padding:20px 0; border-bottom:1px solid #eceff1; margin:15px 0; background-color:#ffffff;}
 .center .authorList1 h2 {font:24px 'proxima_nova'; font-weight:bold; padding:0 20px; margin:0;}
