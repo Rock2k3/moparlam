@@ -284,7 +284,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .social .twitterBlock .list .arrowLeft {position:absolute; top:12px; left:-58px;}
 .center .social .twitterBlock .list .arrowRight {position:absolute; top:12px; right:-58px;}
 
-.center .mainPageMap {background:url(../images/map/map.jpg) no-repeat; width:420px; height:575px; position:relative; z-index:100;}
+.center .mainPageMap {background:url(../images/map/map.jpg) no-repeat; width:420px; height:575px; position:relative;}
 .center .mainPageMap .info {width:340px; padding:20px; background-color:#ffffff; position:absolute; bottom:20px; left:20px; -webkit-box-shadow:1px 1px 5px #e1e1e1; -moz-box-shadow:1px 1px 5px #e1e1e1; box-shadow:1px 1px 5px #e1e1e1;}
 .center .mainPageMap .info .ico {background:url(../images/ico_info.png) no-repeat; display:inline-block; vertical-align:middle; width:47px; height:47px;}
 .center .mainPageMap .info .txt {display:inline-block; vertical-align:middle; width:250px; padding-left:15px; font-size:18px; line-height:18px; font-style:italic;}
@@ -409,7 +409,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .pages span {display:inline-block; vertical-align:top; color:#ffffff; padding:0 10px; height:26px; -moz-border-radius:13px; -webkit-border-radius:13px; border-radius:13px;}
 .center .pages span.active {background-color:#006ab2;}
 
-.center .socialBtns {padding-top:30px;}
+.center .socialBtns {padding-top:30px; margin-bottom:30px;}
 .center .socialBtns .item {display:inline-block; vertical-align:top; padding-right:15px;}
 .center .socialBtns table {width:auto; border-collapse:inherit; border-bottom:0; margin-bottom:0;}
 .center .socialBtns table th {background:none; padding:0;}
