@@ -242,6 +242,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .newsList .Img img {border:10px solid #ffffff;}
 .center .newsList .date {display:inline-block; vertical-align:top; padding:4px 0 1px 0;}
 .center .newsList .heading {display:inline-block; vertical-align:top; background-color:#ed242c; color:#ffffff; font-style:italic; padding:3px 10px 1px 10px; margin:0 0 5px -10px;}
+.center .newsList .loader {position:absolute; top:50%; left:50%; padding:0; width:40px; height:40px; margin:-20px 0 0 -20px;}
 
 .center .newsList .item1 {width:420px; height:576px; border:1px solid #eceff1; margin:-1px; position:relative; background-color:#ffffff;}
 .center .newsList .item1 .txt {padding:5px 20px 10px 20px;}
