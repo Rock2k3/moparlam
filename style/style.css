@@ -10,7 +10,7 @@ a {color:#006ab2;}
 a:hover {text-decoration:none;}
 
 .container {width:1290px; margin:0 auto;}
-.Clear {clear:both; font-size:1px; line-height:0px; height:0px;}
+.Clear {clear:both; font-size:1px; line-height:0px; height:0;}
 
 .arrowLeft {background:url(../images/arrows.png) no-repeat; display:block; width:38px; height:53px; cursor:pointer;}
 .arrowLeft:hover {background-position:0 -106px;}
