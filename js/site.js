@@ -220,6 +220,15 @@ $(function() {
 		$(this).toggleClass('active');
 	});
 	
+	$(document).click(function(e) {
+		if ($(e.target).parents().filter(".center .authorList3 li .listItem1").length != 1) { 
+			$('.center .authorList3 li').removeClass('active');
+		}
+		if ($(e.target).parents().filter(".center .study .teachers .item .Img").length != 1) { 
+			$('.center .study .teachers .item .Img').removeClass('active');
+		}
+	});
+	
 	$('.center .partnersBlock .item a').hover(
 		function() {
 			$(this).find('img.color').animate({opacity:1}, 100);
@@ -245,7 +254,11 @@ $(function() {
 		padding:	0,
 		closeBtn:	false,
 		scrolling: 'visible',
-		width: 690
+		width: 690,
+		autoSize: false,
+		afterLoad: function(){
+		    this.height = $(this.content).contents().find('body').height();
+		}
 	});
 	
 });

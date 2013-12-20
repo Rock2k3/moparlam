@@ -31,7 +31,7 @@ h2 {font:24px 'proxima_nova'; font-weight:bold; line-height:24px; margin-bottom:
 h3 {font:18px 'proxima_nova'; font-weight:bold; line-height:18px; margin-bottom:15px; color:#006ab2;}
 h4 {font:14px 'PTSans'; font-weight:bold; line-height:14px; margin-bottom:15px;}
 
-p {font-size:14px; margin-bottom:15px;}
+p {margin-bottom:15px;}
 
 blockquote {font-size:16px; line-height:18px; font-style:italic; margin-bottom:15px; background-color:#f5f5f5; padding:15px 20px;}
 
@@ -162,6 +162,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 /*footer*/
 
 /*center*/
+.center {font-size:14px;}
 .center .bread_crumbs {padding:10px 0;}
 .center .bread_crumbs .container {width:1240px;}
 
@@ -178,9 +179,9 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .mainNews .list1 li {position:absolute; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); opacity:0; background:none; padding:0; line-height:normal;}
 .center .mainNews .list1 li.active {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100); opacity:1;}
 .center .mainNews .list1 header {padding:10px 12px; background-color:#ed242c; width:110px; color:#ffffff;}
-.center .mainNews .list1 .txt {padding:20px; width:570px; background-color:#ffffff;}
+.center .mainNews .list1 .txt {padding:20px; width:570px; background-color:#ffffff; font-size:14px;}
 .center .mainNews .list1 .txt h2 {font:36px 'proxima_nova'; font-weight:bold; line-height:36px; color:#0072bc; margin-bottom:20px;}
-.center .mainNews .list1 .txt p {font-size:14px; margin:0;}
+.center .mainNews .list1 .txt p {margin:0;}
 .center .mainNews .list1 .txt .date {font:18px 'proxima_nova'; font-weight:bold;}
 
 .center .mainNews .list2 {padding:0 0 0 15px; position:relative;}
@@ -192,10 +193,10 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .mainNews .list2 li:hover {background-color:#eceff1;}
 .center .mainNews .list2 li.active:hover {background-color:#ed242c;}
 .center .mainNews .list2 li .Img {width:90px; height:90px; float:left;}
-.center .mainNews .list2 li .txt {width:190px; padding-left:15px; float:left;}
-.center .mainNews .list2 li .txt p {font:14px 'proxima_nova';  margin:0;}
+.center .mainNews .list2 li .txt {width:190px; padding-left:15px; float:left; font:14px 'proxima_nova';}
+.center .mainNews .list2 li .txt p {margin:0;}
 .center .mainNews .list2 li .txt .date {font:12px 'PTSans'; color:#808080;}
-.center .mainNews .list2 li.active .txt p {font:14px 'proxima_nova'; font-weight:bold; color:#ffffff;}
+.center .mainNews .list2 li.active .txt {font:14px 'proxima_nova'; font-weight:bold; color:#ffffff;}
 .center .mainNews .list2 li.active .txt .date {font:12px 'PTSans'; color:#ffffff;}
 .center .mainNews .list2 .arrowLeft {position:absolute; top:39px; left:-23px;}
 .center .mainNews .list2 .arrowRight {position:absolute; top:39px; right:-18px;}
@@ -245,22 +246,22 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .newsList .loader {position:absolute; top:50%; left:50%; padding:0; width:40px; height:40px; margin:-20px 0 0 -20px;}
 
 .center .newsList .item1 {width:420px; height:576px; border:1px solid #eceff1; margin:-1px; position:relative; background-color:#ffffff;}
-.center .newsList .item1 .txt {padding:5px 20px 10px 20px;}
+.center .newsList .item1 .txt {padding:5px 20px 10px 20px; font-size:14px;}
 .center .newsList .item1 .txt .date {font-size:14px;}
 .center .newsList .item1 .txt .heading {font-size:14px;}
 .center .newsList .item1 .txt h2 {font:24px 'proxima_nova'; line-height:24px; font-weight:bold; margin:0;}
-.center .newsList .item1 .txt p {font-size:14px; margin:15px 0 0 0;}
+.center .newsList .item1 .txt p {margin:15px 0 0 0;}
 
 
 .center .newsList .item2 {width:210px; height:288px; border:1px solid #eceff1; margin:-1px; position:relative; background-color:#ffffff; float:left;}
-.center .newsList .item2 .txt {padding:0 20px 5px 20px;}
+.center .newsList .item2 .txt {padding:0 20px 5px 20px; font-size:12px;}
 .center .newsList .item2 .txt .date {font-size:11px;}
 .center .newsList .item2 .txt .heading {font-size:11px;}
 .center .newsList .item2 .txt h2 {font:14px 'proxima_nova'; line-height:14px; font-weight:bold; margin:0;}
 .center .newsList .item2 .txt p {font-size:12px; margin:10px 0 0 0;}
 
 .center .newsList .item3 {width:420px; height:288px; border:1px solid #eceff1; margin:-1px; position:relative; background-color:#ffffff; float:left;}
-.center .newsList .item3 .txt {padding:0 20px 5px 20px;}
+.center .newsList .item3 .txt {padding:0 20px 5px 20px; font-size:12px;}
 .center .newsList .item3 .txt .date {font-size:11px;}
 .center .newsList .item3 .txt h2 {font:14px 'proxima_nova'; line-height:14px; font-weight:bold; margin:0;}
 .center .newsList .item3 .txt p {font-size:12px; margin:10px 0 0 0;}
@@ -298,11 +299,11 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .projects .block1 .slider .arrowLeft {position:absolute; top:19px; left:-38px;}
 .center .projects .block1 .slider .arrowRight {position:absolute; top:19px; right:-38px;}
 .center .projects .block1 a {text-decoration:none; color:#ffffff;}
-.center .projects .block1 li {width:157px; text-align:center; float:left; background:none; padding:0; line-height:normal;}
+.center .projects .block1 li {width:157px; text-align:center; float:left; background:none; padding:0; line-height:normal; font:15px 'proxima_nova'; font-weight:bold; color:#ffffff;}
 .center .projects .block1 li .Img {background:url(../images/proj_line.gif) repeat-y; padding-top:10px; height:80px; margin-bottom:15px;}
 .center .projects .block1 li .Img img {-moz-border-radius:35px; -webkit-border-radius:35px; border-radius:35px;}
 .center .projects .block1 li:first-child .Img {background:none;}
-.center .projects .block1 li p {font:15px 'proxima_nova'; font-weight:bold; color:#ffffff; padding:0 10px; margin:0;}
+.center .projects .block1 li p {padding:0 10px; margin:0;}
 
 .center .projects .block2 {background-color:#ffc80b; padding:20px 20px 40px 20px; margin:0 15px; text-align:center;}
 .center .projects .block2 ul {background-color:#ffffff; padding:10px; display:inline-block; vertical-align:top;}
@@ -314,10 +315,10 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .education .block {background-color:#ffffff; padding:30px 10px; margin:0 15px;}
 .center .education h2 {font:36px 'proxima_nova'; line-height:36px; font-weight:bold; color:#000000; text-align:center; margin-bottom:40px;}
 .center .education h3 {font:24px 'proxima_nova'; line-height:24px; text-align:center; margin-bottom:15px; color:#000000;}
-.center .education .column {width:400px; padding:0 6px 25px 6px; float:left;}
+.center .education .column {width:400px; padding:0 6px 25px 6px; float:left; font-size:14px;}
 .center .education .column .Img {margin-bottom:20px;}
 .center .education .column h3 {font-weight:bold; color:#006ab2; text-align:left;}
-.center .education .column p {font-size:14px; padding:0 10px; margin:0;}
+.center .education .column p {padding:0 10px; margin:0;}
 .center .education .column a {color:#006ab2;}
 .center .education .btn {text-align:center;}
 
@@ -333,9 +334,9 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .media .photoItem1 {width:820px; height:554px; padding:10px; border:1px solid #eceff1; margin:-1px; position:relative; background-color:#ffffff;}
 .center .media .photoItem1 .info {position:absolute; right:0; bottom:10px; width:100%;}
 .center .media .photoItem1 .info .commentsCount {top:-37px; bottom:auto;}
-.center .media .photoItem1 .info .txt {padding:10px; width:780px; margin:0 0 10px 20px; background-color:#ffffff; display:none;}
-.center .media .photoItem1 .info .date {font-size:14px;}
-.center .media .photoItem1 .info p {font:24px 'proxima_nova'; font-weight:bold; margin:0;}
+.center .media .photoItem1 .info .txt {padding:10px; width:780px; margin:0 0 10px 20px; background-color:#ffffff; display:none; font:24px 'proxima_nova'; font-weight:bold;}
+.center .media .photoItem1 .info .date {font:14px 'PTSans';}
+.center .media .photoItem1 .info p {margin:0;}
 .center .media .photoItem1:hover {background-color:#ec242c;}
 .center .media .photoItem1:hover .icoPhoto2 {background:url(../images/ico_view2.png) no-repeat;}
 .center .media .photoItem1:hover .info .txt {display:block;}
@@ -343,9 +344,9 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .media .photoItem2 {width:400px; height:267px; padding:10px; border:1px solid #eceff1; margin:-1px; position:relative; background-color:#ffffff;}
 .center .media .photoItem2 .info {position:absolute; right:0; bottom:10px; width:100%;}
 .center .media .photoItem2 .info .commentsCount {top:-37px; bottom:auto;}
-.center .media .photoItem2 .info .txt {padding:10px; width:360px; margin:0 0 10px 20px; background-color:#ffffff; display:none;}
-.center .media .photoItem2 .info .date {font-size:11px;}
-.center .media .photoItem2 .info p {font:14px 'proxima_nova'; font-weight:bold; margin:0;}
+.center .media .photoItem2 .info .txt {padding:10px; width:360px; margin:0 0 10px 20px; background-color:#ffffff; display:none; font:14px 'proxima_nova'; font-weight:bold;}
+.center .media .photoItem2 .info .date {font:11px 'PTSans';}
+.center .media .photoItem2 .info p {margin:0;}
 .center .media .photoItem2:hover {background-color:#ec242c;}
 .center .media .photoItem2:hover .icoPhoto1 {background:url(../images/ico_view1.png) no-repeat;}
 .center .media .photoItem2:hover .info .txt {display:block;}
@@ -389,18 +390,18 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 
 .center .media .videoItem1 {width:820px; height:554px; padding:10px; border:1px solid #eceff1; margin:-1px; position:relative; background-color:#ffffff;}
 .center .media .videoItem1 .Img {position:relative; width:820px; height:463px; overflow:hidden;}
-.center .media .videoItem1 .txt {padding:20px 10px 0 10px;}
-.center .media .videoItem1 .txt .date {font-size:14px;}
-.center .media .videoItem1 .txt p {font:24px 'proxima_nova'; font-weight:bold; margin:0;}
+.center .media .videoItem1 .txt {padding:20px 10px 0 10px; font:24px 'proxima_nova'; font-weight:bold;}
+.center .media .videoItem1 .txt .date {font:14px 'PTSans';}
+.center .media .videoItem1 .txt p {margin:0;}
 .center .media .videoItem1:hover {background-color:#ec242c;}
 .center .media .videoItem1:hover .icoVideo2 {background:url(../images/ico_play2.png) no-repeat;}
 .center .media .videoItem1:hover .txt {color:#ffffff;}
 
 .center .media .videoItem2 {width:400px; height:267px; padding:10px; border:1px solid #eceff1; margin:-1px; position:relative; background-color:#ffffff;}
 .center .media .videoItem2 .Img {position:relative; width:400px; height:221px; overflow:hidden;}
-.center .media .videoItem2 .txt {padding:10px 10px 0 10px;}
-.center .media .videoItem2 .txt .date {font-size:11px;}
-.center .media .videoItem2 .txt p {font:14px 'proxima_nova'; font-weight:bold; margin:0;}
+.center .media .videoItem2 .txt {padding:10px 10px 0 10px; font:14px 'proxima_nova'; font-weight:bold;}
+.center .media .videoItem2 .txt .date {font:11px 'PTSans';}
+.center .media .videoItem2 .txt p {margin:0;}
 .center .media .videoItem2:hover {background-color:#ec242c;}
 .center .media .videoItem2:hover .icoVideo1 {background:url(../images/ico_play1.png) no-repeat;}
 .center .media .videoItem2:hover .txt {color:#ffffff;}
@@ -447,7 +448,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .author .Img img {width:192px; height:192px; -moz-border-radius:96px; -webkit-border-radius:96px; border-radius:96px;}
 .center .author .txt {width:820px; padding:20px; float:left; font-size:14px;}
 .center .author .txt h2 {font:24px 'proxima_nova'; font-weight:bold; margin:0;}
-.center .author .txt p {font-size:12px; margin:15px 0 0 0;}
+.center .author .txt p {margin:15px 0 0 0;}
 
 .center .commentsBlock {padding-top:15px;}
 .center .commentsBlock h2 {font:24px 'PTSans'; font-weight:bold; padding:0 100px; margin-bottom:10px;}
@@ -455,8 +456,8 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 
 .center .commentsBlock .user {width:190px; padding:20px 0; float:right;}
 .center .commentsBlock .user .ava {width:32px; height:32px; float:left;}
-.center .commentsBlock .user .info {overflow:hidden; padding-left:10px;}
-.center .commentsBlock .user .info p {margin:2px 0 0 0; font-size:12px;}
+.center .commentsBlock .user .info {overflow:hidden; padding-left:10px; font-size:12px;}
+.center .commentsBlock .user .info p {margin:2px 0 0 0;}
 .center .commentsBlock .user .info strong {font:14px 'proxima_nova'; font-weight:bold; line-height:18px;}
 
 .center .commentsBlock .block {background-color:#ffffff; padding:20px; margin:0 15px;}
@@ -538,7 +539,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .media .article_single .filter span.active {background-color:#ec232c;}
 .center .media .article_single .filter span.active a {color:#ffffff;}
 
-.center .media .article_single .article {background-color:#ffffff;}
+.center .media .article_single .article {background-color:#ffffff; font-size:14px;}
 .center .media .article_single .article .block1 {background-color:#f3f8fc; padding:20px 95px 20px 125px;}
 
 .center .media .article_single .article .block1 .tags {float:right; padding-top:10px; font-size:14px;}
@@ -560,8 +561,8 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .media .article_single .article .articleHeader .autor a {font:18px 'proxima_nova';}
 .center .media .article_single .article .articleHeader .autor p {margin:0;}
 
-.center .media .article_single .article .block2 {background-color:#f5f5f5; padding:30px 95px 5px 125px;}
-.center .media .article_single .article .block2 p {font-size:24px; margin-bottom:25px;}
+.center .media .article_single .article .block2 {background-color:#f5f5f5; padding:30px 95px 5px 125px; font-size:24px;}
+.center .media .article_single .article .block2 p {margin-bottom:25px;}
 
 .center .media .article_single .article .block3 {width:820px; margin:0 auto; padding:40px 0 25px 0;}
 .center .media .article_single .article .block3 h2,
@@ -574,22 +575,21 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .media .article_single .article .block4 .lBlock {width:135px; padding:0 20px 0 90px; float:left;}
 .center .media .article_single .article .block4 .rBlock {width:695px; float:left;}
 .center .media .article_single .article .block4 .file {position:relative;}
-.center .media .article_single .article .block4 .file .ico {width:23px; height:24px; position:absolute; top:0; left:-34px;}
-.center .media .article_single .article .block4 .file p {font-size:12px;}
-.center .media .article_single .article .block4 .file p a {font-size:14px;}
-.center .media .article_single .article .block4 .file p span {color:#808080;}
+.center .media .article_single .article .block4 .file .ico {width:23px; height:24px; position:absolute; top:0; left:-34px; font-size:12px;}
+.center .media .article_single .article .block4 .file a {font-size:14px;}
+.center .media .article_single .article .block4 .file span {color:#808080;}
 .center .media .article_single .article .block4 blockquote {padding:25px 0; font-size:18px; line-height:24px;}
-.center .media .article_single .article .block4 .author {position:relative; width:95px;}
+.center .media .article_single .article .block4 .author {position:relative; width:95px; font-size:12px; line-height:18px;}
 .center .media .article_single .article .block4 .author .ava {background:url(../images/no_ava.png) no-repeat; width:40px; height:40px; overflow:hidden; position:absolute; top:0; left:-50px;}
 .center .media .article_single .article .block4 .author .ava img {width:40px; height:40px; -moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px;}
-.center .media .article_single .article .block4 .author p {font-size:12px; line-height:18px; margin-bottom:8px;}
-.center .media .article_single .article .block4 .author p a {font-size:14px;}
+.center .media .article_single .article .block4 .author p {margin-bottom:8px;}
+.center .media .article_single .article .block4 .author a {font-size:14px;}
 
 .center .media .article_single .imgBlock {background-color:#f5f5f5; margin-bottom:15px;}
 .center .media .article_single .imgBlock .Img {position:relative; text-align:center;}
-.center .media .article_single .imgBlock .txt {padding:20px;}
+.center .media .article_single .imgBlock .txt {padding:20px; line-height:18px;}
 .center .media .article_single .imgBlock .txt h3 {color:#000000; margin:0 0 5px 0;}
-.center .media .article_single .imgBlock .txt p {margin:0; line-height:18px;}
+.center .media .article_single .imgBlock .txt p {margin:0;}
 
 .center .media .article_single .photoGalery_single {padding-bottom:35px;}
 .center .media .article_single .photoGalery_single .photoList1 ul {padding:9px 0 0 10px;}
@@ -600,10 +600,10 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .newsList1 .block li {padding:9px; position:relative; background:#ffffff; width:295px; float:left; border-left:1px solid #eceff1; cursor:pointer; line-height:normal;}
 .center .newsList1 .block li.active {cursor:default; background-color:#ed242c;}
 .center .newsList1 .block li .Img {width:90px; height:90px; float:left;}
-.center .newsList1 .block li .txt {width:190px; padding-left:15px; float:left;}
-.center .newsList1 .block li .txt p {font:14px 'proxima_nova';  margin:0;}
+.center .newsList1 .block li .txt {width:190px; padding-left:15px; float:left; font:14px 'proxima_nova';}
+.center .newsList1 .block li .txt p { margin:0;}
 .center .newsList1 .block li .txt .date {font:12px 'PTSans'; color:#808080;}
-.center .newsList1 .block li.active .txt p {font:14px 'proxima_nova'; font-weight:bold; color:#ffffff;}
+.center .newsList1 .block li.active .txt {font:14px 'proxima_nova'; font-weight:bold; color:#ffffff;}
 .center .newsList1 .block li.active .txt .date {font:12px 'PTSans'; color:#ffffff;}
 .center .newsList1 .block .arrowLeft {position:absolute; bottom:28px; left:-23px;}
 .center .newsList1 .block .arrowRight {position:absolute; bottom:28px; right:-18px;}
@@ -624,14 +624,14 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .study .studyMain .block1 .btn a:hover {background-position:0 -63px;}
 .center .study .studyMain .block1 .btn a:active {background-position:0 -126px;}
 
-.center .study .tabsBlock dt {width:20%; padding:10px 0 0 0;}
+.center .study .tabsBlock dt {width:20%; padding:10px 0 0 0; font:14px 'PTSans'; line-height:normal;}
 .center .study .tabsBlock dt .tab {display:inline-block; vertical-align:middle; width:100%; padding:10px 0; border:0; background-color:#0072bc; color:#ffffff;}
 .center .study .tabsBlock dt .tab span {display:inline-block; vertical-align:middle; width:100%;}
 .center .study .tabsBlock dt .tab .line {background:url(../images/tab_line.gif) left center no-repeat; height:100%; width:2px; margin-right:-2px;}
 .center .study .tabsBlock dt:first-child .tab .line {background:none;}
 .center .study .tabsBlock dt.active .tab .line {background:none;}
 .center .study .tabsBlock dt.active .tab {background-color:#ffffff; color:#000000;}
-.center .study .tabsBlock dt p {margin:0; font:14px 'PTSans'; line-height:normal; padding:0 20px;}
+.center .study .tabsBlock dt p {margin:0; padding:0 20px;}
 .center .study .tabsBlock dt .text1 {font:18px 'proxima_nova';}
 
 .center .study .aboutBlock {padding:25px 0 10px 0;}
@@ -648,7 +648,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .study .teachers .item .Img .popup .arrow {background:url(../images/arrow2.png) no-repeat; width:23px; height:16px; position:absolute; top:-16px; left:50%; margin-left:-12px;}
 .center .study .teachers .item .Img .popup h3 {color:#000000; margin-bottom:10px;}
 .center .study .teachers .item .Img .popup p {margin:0;}
-.center .study .teachers .item .Img.active {position:relative;}
+.center .study .teachers .item .Img.active {position:relative; z-index:10;}
 .center .study .teachers .item .Img.active span {border-color:#fde9e9;}
 .center .study .teachers .item .Img.active .popup {display:block;}
 .center .study .teachers .item h4 {font:14px 'proxima_nova'; font-weight:bold; margin:0;}
@@ -682,8 +682,8 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 
 .center .about .block1 {background-color:#ffffff; padding-bottom:20px; margin-bottom:15px;}
 .center .about .block1 h3 {color:#000000;}
-.center .about .block1 .column {padding:25px 20px 10px 20px; width:590px; float:left;}
-.center .about .block1 .column p {font-size:18px;}
+.center .about .block1 .column {padding:25px 20px 10px 20px; width:590px; float:left; font-size:18px;}
+.center .about .block1 .column p {}
 .center .about .block1 .column.bg1 {background-color:#f5f5f5;}
 .center .about .block1 .column.bg2 {background-color:#ebebeb;}
 
@@ -849,9 +849,10 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 
 .center .authorList3.candidates h2 .txt {display:inline-block; vertical-align:top; padding:5px 20px 0 0;}
 .center .authorList3.candidates select {width:205px; margin-left:5px;}
-.center .authorList3.candidates .listItem1 {width:75px; padding:0 8px;}
+.center .authorList3.candidates .listItem1 {width:75px; padding:0 8px; font-size:12px;}
+.center .authorList3.candidates .listItem1 a {font-size:14px;}
 .center .authorList3.candidates li .listItem1 .ava {cursor:default;}
-.center .authorList3.candidates p {font-size:12px; margin-top:10px;}
+.center .authorList3.candidates p {margin-top:10px;}
 .center .authorList3.candidates .more {font:18px 'proxima_nova'; text-align:center; border-top:1px solid #eceff1; padding-top:15px;}
 
 .center .project {padding:25px 0 0 0;}
@@ -899,8 +900,8 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .plans .item .lBlock {width:285px; float:left;}
 .center .plans .item .lBlock span {display:inline-block; vertical-align:top; width:185px; font:18px 'proxima_nova'; line-height:18px;}
 .center .plans .item .lBlock span.date {width:80px; font-size:30px; line-height:30px; color:#a3a3a3; padding-right:15px; margin-top:-2px;}
-.center .plans .item .rBlock {width:285px; float:right;}
-.center .plans .item .rBlock p {margin:0; color:#404040;}
+.center .plans .item .rBlock {width:285px; float:right; color:#404040;}
+.center .plans .item .rBlock p {margin:0;}
 
 .center .photoVideoBlock {background-color:#ffffff; padding:30px 0 0 0; margin-bottom:15px;}
 .center .photoVideoBlock .line {float:left;}
@@ -908,10 +909,10 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .photoVideoBlock .item {width:400px; padding:0 10px 30px 10px; float:left;}
 .center .photoVideoBlock .item a {text-decoration:none;}
 .center .photoVideoBlock .item .Img {position:relative; height:221px; overflow:hidden;}
-.center .photoVideoBlock .item .txt {color:#000000; padding:10px 10px 0 10px;}
+.center .photoVideoBlock .item .txt {color:#000000; padding:10px 10px 0 10px; font-size:12px;}
 .center .photoVideoBlock .item .txt .date {font-size:11px;}
 .center .photoVideoBlock .item .txt h3 {font:14px 'proxima_nova'; line-height:14px; font-weight:bold; margin:0; color:#000000;}
-.center .photoVideoBlock .item .txt p {font-size:12px; margin:10px 0 0 0;}
+.center .photoVideoBlock .item .txt p {margin:10px 0 0 0;}
 .center .photoVideoBlock .more {font:18px 'proxima_nova'; text-align:center; border-top:1px solid #eceff1; padding:15px 0;}
 .center .photoVideoBlock .loader {padding:5px 0 20px 0;}
 
@@ -920,9 +921,9 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .personal .block {padding:0 15px;}
 
 .center .personal .block1 {background-color:#ffffff; padding:30px 10px; margin-bottom:15px;}
-.center .personal .block1 .Img {width:150px; padding:0 25px; text-align:center; float:left;}
+.center .personal .block1 .Img {width:150px; padding:0 25px; text-align:center; float:left; line-height:18px;}
 .center .personal .block1 .Img img {-moz-border-radius:72px; -webkit-border-radius:72px; border-radius:72px;}
-.center .personal .block1 .Img p {margin:8px 0 0 0; line-height:18px;}
+.center .personal .block1 .Img p {margin:8px 0 0 0;}
 .center .personal .block1 .txt {width:715px; padding:10px 10px 0 10px; float:left; font-size:14px;}
 .center .personal .block1 .txt h2 {margin-bottom:40px;}
 .center .personal .block1 .txt h3 {color:#000000; margin-bottom:18px;}
@@ -1008,14 +1009,14 @@ span.chk.chkChecked {background-position:-13px 0;}
 /*end checkbox*/
 
 /*popup_ajax*/
-.popup_ajax {width:610px; padding:40px 40px 15px 40px;}
+.popup_ajax {width:610px; padding:40px 40px 15px 40px; background-color:#ffffff; font-size:14px;}
 .popup_ajax header {margin-bottom:25px;}
 .popup_ajax header .close {float:right; padding-top:7px; font-size:14px; line-height:14px; color:#808080;}
 .popup_ajax header .close a {background:url(../images/fancybox/btn_close.gif) 0 4px no-repeat; display:inline-block; vertical-align:top; text-decoration:none; color:#000000; padding-left:12px; margin-left:10px}
 .popup_ajax header .close a span {border-bottom:1px dotted #000000; display:inline-block; vertical-align:top; line-height:14px;}
 .popup_ajax header h2 {font:24px 'proxima_nova'; font-weight:bold; margin:0;}
 
-.popup_ajax p {font-size:14px; margin-bottom:25px;}
+.popup_ajax p {margin-bottom:25px;}
 .popup_ajax .btns {margin-bottom:25px;}
 .popup_ajax .btns .btn1, .popup_ajax .btns .btn2 {margin-right:5px;}
 
@@ -1027,8 +1028,8 @@ span.chk.chkChecked {background-position:-13px 0;}
 .popup_ajax .btn2:hover {background-position:left -35px;}
 .popup_ajax .btn2:active {background-position:left -70px;}
 
-.popup_ajax .formLogin .item {display:inline-block; vertical-align:top; width:190px; margin:0 10px 25px 0;}
-.popup_ajax .formLogin .item p {margin:10px 0 0 0; padding:0 10px; font-size:12px;}
+.popup_ajax .formLogin .item {display:inline-block; vertical-align:top; width:190px; margin:0 10px 25px 0; font-size:12px;}
+.popup_ajax .formLogin .item p {margin:10px 0 0 0; padding:0 10px;}
 .popup_ajax .formLogin .item .textfield {width:170px; padding:0 9px; height:33px; border:1px solid #e5e5e5; font:14px 'PTSans'; color:#000000;}
 .popup_ajax .formLogin .item .hint {width:170px; padding:0 10px; height:35px; font:14px 'PTSans'; line-height:36px; color:#000000; cursor:text;}
 .popup_ajax .formLogin .txt1 {display:inline-block; vertical-align:top; padding:9px 10px; background-color:#f5f5f5;}
@@ -1045,8 +1046,8 @@ span.chk.chkChecked {background-position:-13px 0;}
 /*personList*/
 .personList {position:relative;}
 .personList li {padding:0; background:none; float:left;}
-.personList li .lCol {width:505px; float:left;}
-.personList li .lCol p {font-size:12px;}
+.personList li .lCol {width:505px; float:left; font-size:12px;}
+.personList li .lCol p {}
 .personList li .rCol {width:305px; float:right;}
 .personList li .rCol .Img {background:url(../images/no_ava3.png) no-repeat; width:210px; height:210px; margin-bottom:20px;}
 .personList li .rCol .Img img {width:210px; height:210px; -moz-border-radius:105px; -webkit-border-radius:105px; border-radius:105px;}
@@ -1054,8 +1055,8 @@ span.chk.chkChecked {background-position:-13px 0;}
 .personList li .rCol .name strong {font:18px 'proxima_nova'; font-weight:bold; line-height:18px; display:block;}
 
 .personList li .lCol h3 {color:#000000;}
-.personList li .lCol section {margin-bottom:15px;}
-.personList li .lCol section p {font-size:14px;}
+.personList li .lCol section {margin-bottom:15px; font-size:14px;}
+.personList li .lCol section p {}
 .personList li .lCol .txt1 h3 {margin-bottom:0;}
 .personList li .lCol .txt2 h3 {margin-bottom:10px;}
 .personList li .lCol .txt2 p {padding-left:10px; margin:0 0 5px 0;}
