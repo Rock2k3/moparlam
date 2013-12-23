@@ -1072,3 +1072,7 @@ span.chk.chkChecked {background-position:-13px 0;}
 .personList .btnNext .Img {background:url(../images/no_ava4.png) no-repeat; width:96px; height:96px; opacity:0.5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);}
 .personList .btnNext:hover .Img {opacity:1; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);}
 .personList .btnNext .Img img {width:96px; height:96px; -moz-border-radius:48px; -webkit-border-radius:48px; border-radius:48px;}
+
+/*===================*/
+.center .social .twitterBlock{padding-bottom: 20px}
+.center .social .twitterBlock .list .Img img{width: 65px}

@@ -255,9 +255,8 @@ $(function() {
 		closeBtn:	false,
 		scrolling: 'visible',
 		width: 690,
-		autoSize: false,
 		afterLoad: function(){
-		    this.height = $(this.content).contents().find('body').height();
+		    $(this.content).height($(this.content).contents().find('body').outerHeight());
 		}
 	});
 	
