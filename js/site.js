@@ -13,7 +13,10 @@ $(function() {
 		items	:4,
 		scroll	:1
 	});
-	$('.center .mainNews .list2 li').click(function(e) {
+	
+	$mainNewsItems = $('.center .mainNews .list2 li');
+	
+	$mainNewsItems.click(function(e) {
 		$itemsList = $(this).parent().find('li');
 		$itemsList.filter('.active').removeClass('active');
 		$(this).addClass('active');
@@ -31,6 +34,31 @@ $(function() {
 		$bg1.animate({opacity:0}, 400, function() {$bg1.removeClass('active');});
 		$bg2.animate({opacity:1}, 400, function() {$bg2.addClass('active');});
 	});
+	
+	var intervalID;
+	var num = 0;
+	timerStart();
+	function timerStart() {
+		if($mainNewsItems.length>1) {
+			intervalID = setInterval(itemClick, 3000);
+		}
+	};
+	function itemClick() {
+		if(num>=$mainNewsItems.length) {
+			num = 0;
+		}
+		$mainNewsItems.eq(num).click();
+		num++;
+	};
+	$('.center .mainNews').hover(
+		function() {
+			clearInterval(intervalID)
+		},
+		function() {
+			num = $mainNewsItems.index($mainNewsItems.filter('.active')) + 1;
+			timerStart();
+		}
+	);
 	
 	$('.center .projects .block1 ul').carouFredSel({
 		auto	: false,
