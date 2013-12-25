@@ -36,7 +36,7 @@ $(function() {
 	});
 	
 	var intervalID;
-	var num = 0;
+	var num = 1;
 	timerStart();
 	function timerStart() {
 		if($mainNewsItems.length>1) {

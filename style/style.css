@@ -257,7 +257,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .newsList .item2 .txt {padding:0 20px 5px 20px; font-size:12px;}
 .center .newsList .item2 .txt .date {font-size:11px;}
 .center .newsList .item2 .txt .heading {font-size:11px;}
-.center .newsList .item2 .txt h2 {font:14px 'proxima_nova'; line-height:14px; font-weight:bold; margin:0;}
+.center .newsList .item2 .txt h2 {font:14px 'proxima_nova'; line-height:14px; font-weight:bold; margin:0 0 10px 0;}
 .center .newsList .item2 .txt p {font-size:12px; margin:10px 0 0 0;}
 
 .center .newsList .item3 {width:420px; height:288px; border:1px solid #eceff1; margin:-1px; position:relative; background-color:#ffffff; float:left;}
