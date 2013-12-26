@@ -37,10 +37,12 @@ $(function() {
 	
 	var intervalID;
 	var num = 1;
-	timerStart();
+	$(window).load(function(e) {
+		timerStart();
+	});
 	function timerStart() {
 		if($mainNewsItems.length>1) {
-			intervalID = setInterval(itemClick, 3000);
+			intervalID = setInterval(itemClick, 5000);
 		}
 	};
 	function itemClick() {

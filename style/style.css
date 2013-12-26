@@ -177,7 +177,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .mainNews .list1 {padding:35px 0 0 24px; height:380px;}
 .center .mainNews .list1 ul {position:relative;}
 .center .mainNews .list1 li {position:absolute; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); opacity:0; background:none; padding:0; line-height:normal;}
-.center .mainNews .list1 li.active {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100); opacity:1;}
+.center .mainNews .list1 li.active {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100); opacity:1; z-index:1;}
 .center .mainNews .list1 header {padding:10px 12px; background-color:#ed242c; width:110px; color:#ffffff;}
 .center .mainNews .list1 .txt {padding:20px; width:570px; background-color:#ffffff; font-size:14px;}
 .center .mainNews .list1 .txt h2 {font:36px 'proxima_nova'; font-weight:bold; line-height:36px; color:#0072bc; margin-bottom:20px;}
