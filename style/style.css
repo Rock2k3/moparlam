@@ -108,6 +108,13 @@ header .block1 .search .textfield {width:145px; border:0; font:12px 'PTSans'; co
 header .block1 .search .hint {width:145px; border:0; font:12px 'PTSans'; color:#404040; cursor:text;}
 header .block1 .search .btn {background:url(../images/btn_search.png) no-repeat; width:21px; height:18px; border:0; cursor:pointer; position:absolute; top:8px; right:8px;}
 
+header .block1 .likes {padding:2px 30px 0 0; float:right;}
+header .block1 .likes .item {display:inline-block; vertical-align:top; padding:0 12px 0 35px; height:29px; font-size:13px; color:#ffffff; line-height:30px; -moz-border-radius:12px; -webkit-border-radius:12px; border-radius:12px; margin-right:5px;}
+header .block1 .likes .item.vk {background:url(../images/ico_vk2.png) 10px 7px no-repeat #41658b;}
+header .block1 .likes .item.fb {background:url(../images/ico_fb2.png) 14px 3px no-repeat #39579a;}
+header .block1 .likes .item.tw {background:url(../images/ico_tw2.png) 8px 7px no-repeat #18a9df;}
+header .block1 .likes .item.sb {background:url(../images/ico_sb2.png) 7px 7px no-repeat #26b0f6;}
+
 header .block1 menu {padding:0 15px; font-size:18px; line-height:30px; font-weight:bold;}
 header .block1 menu li {background:url(../images/menu_line1.gif) left center no-repeat; margin:-9px -2px -9px 0; float:left; padding:0; line-height:30px;}
 header .block1 menu li:first-child {background:none;}
