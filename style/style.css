@@ -184,7 +184,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 
 .inside .center {padding-bottom:60px;}
 
-.center .mainNews {width:100%; height:560px; position:relative; overflow:hidden; min-width:1290px;}
+.center .mainNews {width:100%; height:560px; position:relative; overflow:hidden; min-width:1260px;}
 .center .mainNews .bg {width:50%; height:560px; position:absolute; top:0; left:50%; text-align:center;}
 .center .mainNews .bg li {position:absolute; top:0; left:0; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); opacity:0; background:none; padding:0; line-height:normal;}
 .center .mainNews .bg li img {margin-left:-100%;}
