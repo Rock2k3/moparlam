@@ -184,6 +184,7 @@ $(function() {
 		$columns.height(maxHeigth($columns));
 	});
 	
+	/*
 	$('.center .about .block2 .pseudoLink').click(function(e) {
 		$block = $(this).closest('.block2');
 		
@@ -197,6 +198,46 @@ $(function() {
 		
 		$item2.toggleClass('active');
 		$item3.toggleClass('active');
+		$item4.toggleClass('active');
+	});
+	*/
+	
+	$('.center .about .block2 .line2').each(function(index, element) {
+		$itemList = $(this).find('.item4');
+		$moreBlocks = $(this).find('.moreBlock');
+		$districtInfo = $(this).find('.districtInfo');
+		switch ($itemList.length) {
+			case 1:
+				$moreBlocks.addClass('moreBlock2');
+				$districtInfo.addClass('districtInfo1');
+				break;
+			case 2:
+				$moreBlocks.addClass('moreBlock2');
+				$districtInfo.addClass('districtInfo1');
+				break;
+			case 3:
+				$moreBlocks.addClass('moreBlock2');
+				$districtInfo.eq(1).addClass('districtInfo1');
+				$districtInfo.eq(2).addClass('districtInfo2');
+				break;
+			case 4:
+				$moreBlocks.eq(0).addClass('moreBlock1');
+				$moreBlocks.eq(1).addClass('moreBlock2');
+				$moreBlocks.eq(2).addClass('moreBlock2');
+				$moreBlocks.eq(3).addClass('moreBlock3');
+				
+				$districtInfo.eq(1).addClass('districtInfo1');
+				$districtInfo.eq(2).addClass('districtInfo1');
+				$districtInfo.eq(3).addClass('districtInfo2');
+				break;
+		}
+	});
+	$('.center .about .block2 .item4 .pseudoLink').click(function(e) {
+		$block = $(this).closest('.block2');
+		$item4 = $(this).closest('.item4');
+		
+		$block.find('.item4').filter('.active').not($item4).removeClass('active');
+		
 		$item4.toggleClass('active');
 	});
 	

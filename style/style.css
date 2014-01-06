@@ -705,7 +705,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .about .block1 .column.bg1 {background-color:#f5f5f5;}
 .center .about .block1 .column.bg2 {background-color:#ebebeb;}
 
-.center .about .block2 {background-color:#ffffff; padding:25px 0; margin-bottom:15px;}
+.center .about .block2 {background-color:#ffffff; padding:25px 0; margin-bottom:15px; text-align:center;}
 .center .about .block2 h2 {padding:0 20px; margin-bottom:25px;}
 .center .about .block2 .line1 {background:url(../images/dot.gif) repeat-x; width:631px; height:4px; overflow:hidden; margin:0 auto;}
 .center .about .block2 .column1 {padding:0 20px; width:590px; float:left;}
@@ -730,6 +730,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .about .block2 .item3 .item .text {padding:15px; background-color:#ffffff; border:3px solid #006ab2; font-size:14px; line-height:18px; text-align:left;}
 .center .about .block2 .item3 .item .pseudoLink {display:inline-block; vertical-align:top; margin-top:5px; font-size:18px; line-height:18px; border-bottom:1px dotted #000000; cursor:pointer;}
 
+.center .about .block2 .moreBlock {display:none;}
 .center .about .block2 .moreBlock1 {padding:15px 5px; width:525px; background-color:#ffffff; border:3px solid #ffd200; position:absolute; top:100%; left:0; margin:-3px 0 0 0; display:none;}
 .center .about .block2 .moreBlock2 {padding:15px 5px; width:525px; background-color:#ffffff; border:3px solid #ffd200; position:absolute; top:100%; left:50%; margin:-3px 0 0 -267px; display:none;}
 .center .about .block2 .moreBlock3 {padding:15px 5px; width:525px; background-color:#ffffff; border:3px solid #ffd200; position:absolute; top:100%; right:0; margin:-3px 0 0 0; display:none;}
@@ -744,7 +745,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .about .block2 .item3.active .moreBlock2,
 .center .about .block2 .item3.active .moreBlock3 {display:block; z-index:1;}
 
-.center .about .block2 .item4 {background:url(../images/dot.gif) left center repeat-x; padding:10px 0 10px 10px; width:285px; float:left;}
+.center .about .block2 .item4 {background:url(../images/dot.gif) center top repeat-y; padding:15px 12px 0 12px; width:285px; margin:0 -2px 0 -2px; display:inline-block; vertical-align:top;}
 .center .about .block2 .item4 .item {text-align:left;}
 .center .about .block2 .item4 .item .text {padding:5px 10px; background-color:#ffffff; border:3px solid #006ab2; font-size:14px; line-height:16px; text-align:left;}
 .center .about .block2 .item4 .item .text .logo {display:inline-block; vertical-align:middle; width:75px; text-align:center;}
@@ -752,6 +753,13 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .about .block2 .item4 .item .pseudoLink {display:inline-block; vertical-align:top; font-size:18px; line-height:18px; border-bottom:1px dotted #000000; cursor:pointer;}
 
 .center .about .block2 .item4 .item .districtInfo {padding:25px 25px 10px 25px; width:750px; background-color:#ffffff; border:3px solid #ffd200; position:absolute; top:100%; left:0; margin:-3px 0 0 0; display:none;}
+.center .about .block2 .item4 .item .districtInfo.districtInfo1 {left:50%; margin-left:-400px;}
+.center .about .block2 .item4 .item .districtInfo.districtInfo2 {left:auto; right:0;}
+
+.center .about .block2 .line2 {background:url(../images/dot.gif) repeat-x; display:inline-block; vertical-align:top; position:relative; margin-top:10px;}
+.center .about .block2 .line2 .leftOver {width:151px; height:4px; background-color:#ffffff; position:absolute; top:0; left:0;}
+.center .about .block2 .line2 .rightOver {width:151px; height:4px; background-color:#ffffff; position:absolute; top:0; right:0;}
+.center .about .block2 .line3 {background:url(../images/dot4.gif) center bottom no-repeat;}
 
 .center .about .districtInfo h2 {padding:0;}
 .center .about .districtInfo .person {margin-bottom:15px;}
@@ -774,6 +782,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .about .block2 .item4.active .item {position:relative;}
 .center .about .block2 .item4.active .item .text {border-color:#ffd200; border-bottom:0; margin-bottom:3px; position:relative; z-index:10;}
 .center .about .block2 .item4.active .item .districtInfo {display:block; z-index:1;}
+.center .about .block2 .item4.active .moreBlock,
 .center .about .block2 .item4.active .moreBlock1,
 .center .about .block2 .item4.active .moreBlock2,
 .center .about .block2 .item4.active .moreBlock3 {display:block; z-index:1;}
