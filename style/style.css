@@ -12,14 +12,14 @@ a:hover {text-decoration:none;}
 .container {width:1260px; margin:0 auto;}
 .Clear {clear:both; font-size:1px; line-height:0px; height:0px;}
 
-.arrowLeft {background:url(../images/arrows.png) no-repeat; display:block; width:38px; height:53px; cursor:pointer;}
-.arrowLeft:hover {background-position:0 -106px;}
-.arrowLeft:active {background-position:0 -159px;}
-.arrowLeft.disabled {background-position:0 -53px; cursor:default;}
-.arrowRight {background:url(../images/arrows.png) -38px 0 no-repeat; display:block; width:38px; height:53px; cursor:pointer;}
-.arrowRight:hover {background-position:-38px -106px;}
-.arrowRight:active {background-position:-38px -159px;}
-.arrowRight.disabled {background-position:-38px -53px; cursor:default;}
+.arrowLeft {background:url(../images/arrows.png) no-repeat; display:block; width:19px; height:75px; cursor:pointer;}
+.arrowLeft:hover {background-position:0 0;}
+.arrowLeft:active {background-position:0 0;}
+.arrowLeft.disabled {background-position:0 -75px; cursor:default;}
+.arrowRight {background:url(../images/arrows.png) -19px 0 no-repeat; display:block; width:19px; height:75px; cursor:pointer;}
+.arrowRight:hover {background-position:-19px 0;}
+.arrowRight:active {background-position:-19px 0;}
+.arrowRight.disabled {background-position:-19px -75px; cursor:default;}
 
 body.whiteBg {background-color:#ffffff;}
 body.whiteBg .bread_crumbs {background-color:#f4f6f7;}
@@ -214,8 +214,10 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .mainNews .list2 li .txt .date {font:12px 'PTSans'; color:#808080;}
 .center .mainNews .list2 li.active .txt {font:14px 'proxima_nova'; font-weight:bold; color:#ffffff;}
 .center .mainNews .list2 li.active .txt .date {font:12px 'PTSans'; color:#ffffff;}
-.center .mainNews .list2 .arrowLeft {position:absolute; top:39px; left:-23px;}
-.center .mainNews .list2 .arrowRight {position:absolute; top:39px; right:-18px;}
+.center .mainNews .list2 .arrowLeft {background-image:url(../images/arrows_1.png); height:45px; position:absolute; top:43px; left:2px;}
+.center .mainNews .list2 .arrowLeft.disabled {background-position:0 -45px;}
+.center .mainNews .list2 .arrowRight {background-image:url(../images/arrows_1.png); height:45px; position:absolute; top:43px; right:3px;}
+.center .mainNews .list2 .arrowRight.disabled {background-position:-19px -45px;}
 
 .center .banners {padding-top:15px; text-align:center;}
 .center .banners a {display:inline-block; vertical-align:top; margin:0 8px;}
@@ -250,8 +252,8 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .icoVideo2 {background:url(../images/ico_video2.png) no-repeat; width:124px; height:124px; position:absolute; top:50%; left:50%; margin:-62px 0 0 -62px;}
 
 .center .newsList {position:relative;}
-.center .newsList .arrowLeft {position:absolute; top:260px; left:-38px;}
-.center .newsList .arrowRight {position:absolute; top:260px; right:-38px;}
+.center .newsList .arrowLeft {position:absolute; top:250px; left:0;}
+.center .newsList .arrowRight {position:absolute; top:250px; right:0;}
 .center .newsList a {text-decoration:none; color:#000000;}
 .center .newsList li {height:576px; border-bottom:1px solid #eceff1; float:left; background:none; padding:0; line-height:normal;}
 .center .media .newsList li {height:auto;}
@@ -299,8 +301,8 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .social .twitterBlock .list .txt {font-size:14px; line-height:18px; width:305px; padding-left:10px; float:left;}
 .center .social .twitterBlock .list .txt .name {font:14px 'proxima_nova'; font-weight:bold; margin-bottom:7px;}
 .center .social .twitterBlock .list .txt .name span {color:#808080; margin-left:5px;}
-.center .social .twitterBlock .list .arrowLeft {position:absolute; top:12px; left:-58px;}
-.center .social .twitterBlock .list .arrowRight {position:absolute; top:12px; right:-58px;}
+.center .social .twitterBlock .list .arrowLeft {position:absolute; top:0; left:-20px;}
+.center .social .twitterBlock .list .arrowRight {position:absolute; top:0; right:-20px;}
 
 .center .mainPageMap {background:url(../images/map/map.jpg) no-repeat; width:420px; height:575px; position:relative;}
 .center .mainPageMap .info {width:340px; padding:20px; background-color:#ffffff; position:absolute; bottom:20px; left:20px; -webkit-box-shadow:1px 1px 5px #e1e1e1; -moz-box-shadow:1px 1px 5px #e1e1e1; box-shadow:1px 1px 5px #e1e1e1;}
@@ -312,8 +314,8 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .projects h2 {font:24px 'proxima_nova'; font-weight:bold; color:#ffffff; text-align:center; margin-bottom:25px;}
 .center .projects .block1 {background:url(../images/proj_bg1.png) left bottom repeat-x #526069; padding:20px 0 40px 0; margin:0;}
 .center .projects .block1 .slider {position:relative;}
-.center .projects .block1 .slider .arrowLeft {position:absolute; top:19px; left:-38px;}
-.center .projects .block1 .slider .arrowRight {position:absolute; top:19px; right:-38px;}
+.center .projects .block1 .slider .arrowLeft {background:url(../images/arrows_2.png) no-repeat; width:28px; height:56px; position:absolute; top:19px; left:0;}
+.center .projects .block1 .slider .arrowRight {background:url(../images/arrows_2.png) -28px 0 no-repeat; width:28px; height:56px; position:absolute; top:19px; right:0;}
 .center .projects .block1 a {text-decoration:none; color:#ffffff;}
 .center .projects .block1 li {width:157px; text-align:center; float:left; background:none; padding:0; line-height:normal; font:15px 'proxima_nova'; font-weight:bold; color:#ffffff;}
 .center .projects .block1 li .Img {background:url(../images/proj_line.gif) repeat-y; padding-top:10px; height:80px; margin-bottom:15px;}
@@ -687,8 +689,8 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .reviews .list li .ava {background:url(../images/no_ava1.png) no-repeat; width:75px; height:75px; float:left;}
 .reviews .list li .ava img {width:75px; height:75px; -moz-border-radius:38px; -webkit-border-radius:38px; border-radius:38px;}
 .reviews .list li .txt {width:285px; padding-left:20px; float:left;}
-.reviews .list .arrowLeft {position:absolute; top:55px; left:-38px;}
-.reviews .list .arrowRight {position:absolute; top:55px; right:-38px;}
+.reviews .list .arrowLeft {position:absolute; top:45px; left:0;}
+.reviews .list .arrowRight {position:absolute; top:45px; right:0;}
 
 .center .about {padding:25px 0 0 0;}
 .center .about header {background-color:#ec242c; font:36px 'proxima_nova'; font-weight:bold; color:#ffffff; line-height:56px; padding:0 20px; margin-bottom:15px; float:left;}
@@ -809,8 +811,8 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 .center .about .block4 .column {width:380px; padding:0 20px; float:left;}
 
 .center .newsList.carousel1 {margin-bottom:15px; position:relative;}
-.center .newsList.carousel1 .arrowLeft {position:absolute; top:116px; left:-38px;}
-.center .newsList.carousel1 .arrowRight {position:absolute; top:116px; right:-38px;}
+.center .newsList.carousel1 .arrowLeft {position:absolute; top:106px; left:0;}
+.center .newsList.carousel1 .arrowRight {position:absolute; top:106px; right:0;}
 .center .newsList.carousel1 .loader {padding:20px 0;}
 
 .center .documentsBlock {background-color:#ffffff; padding:25px 0; margin-bottom:15px;}
