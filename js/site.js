@@ -351,9 +351,15 @@ $(function() {
 	$(document).click(function(e) {
 		if ($(e.target).parents().filter(".center .authorList3 li .listItem1").length != 1) { 
 			$('.center .authorList3 li').removeClass('active');
+			$('.center .authorList3')
+				.find('.listItem2').removeAttr('style')
+				.find('.arrow').removeAttr('style');
 		}
 		if ($(e.target).parents().filter(".center .study .teachers .item .Img").length != 1) { 
 			$('.center .study .teachers .item .Img').removeClass('active');
+			$('.center .study .teachers')
+				.find('.popup').removeAttr('style')
+				.find('.arrow').removeAttr('style');
 		}
 	});
 	
