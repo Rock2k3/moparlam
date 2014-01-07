@@ -331,6 +331,15 @@ $(function() {
 		}
 	});
 	
+	$('header .block2 .userBlock .userBlock1').click(function(e) {
+		$(this).parent().find('.userBlock2').show();
+	});
+	$(document).click(function(e) {
+		if ($(e.target).closest('.userBlock').length != 1) {
+			$('.userBlock2').hide();
+		}
+	});
+	
 });
 
 function initHint() {

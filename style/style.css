@@ -150,7 +150,8 @@ header .block2 .links a.user span {border-bottom:1px dashed #ed242c;}
 header .block2 .links a.user .ico {border:0;}
 
 header .block2 .userBlock {width:295px; height:39px; float:right; position:relative;}
-header .block2 .userBlock .block {width:255px; padding:20px; background-color:#ffffff; position:absolute; top:0; left:0; -webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.3); -moz-box-shadow:1px 1px 10px rgba(0,0,0,0.3); box-shadow:1px 1px 10px rgba(0,0,0,0.3);}
+header .block2 .userBlock .userBlock1 {width:255px; margin:20px; cursor:pointer;}
+header .block2 .userBlock .userBlock2 {width:255px; padding:20px; background-color:#ffffff; position:absolute; top:0; left:0; -webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.3); -moz-box-shadow:1px 1px 10px rgba(0,0,0,0.3); box-shadow:1px 1px 10px rgba(0,0,0,0.3); display:none;}
 header .block2 .userBlock .Img {background:url(../images/no_ava.png) no-repeat; width:40px; height:40px; overflow:hidden; float:left;}
 header .block2 .userBlock .Img img {width:40px; height:40px; -moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px;}
 header .block2 .userBlock .txt {width:205px; padding-top:8px; float:right; font:14px 'PTSans';}
