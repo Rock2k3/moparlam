@@ -878,7 +878,7 @@ footer .socialBtns a.btn_vk {background:url(../images/ico_vk.png) no-repeat;}
 
 .center .authorList3.candidates h2 .txt {display:inline-block; vertical-align:top; padding:5px 20px 0 0;}
 .center .authorList3.candidates select {width:205px; margin-left:5px;}
-.center .authorList3.candidates .listItem1 {width:75px; padding:0 8px; font-size:12px;}
+.center .authorList3.candidates .listItem1 {width:100px; padding:0; font-size:12px;}
 .center .authorList3.candidates .listItem1 a {font-size:14px;}
 .center .authorList3.candidates li .listItem1 .ava {cursor:default;}
 .center .authorList3.candidates p {margin-top:10px;}
