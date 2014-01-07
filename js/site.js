@@ -282,13 +282,70 @@ $(function() {
 		e.preventDefault();
 		if($(this).closest('.authorList3').hasClass('candidates')) return;
 		$(this).closest('.authorList3').find('li.active').not($(this).parent()).removeClass('active');
+		
+		$(this).closest('.authorList3')
+			.find('.listItem2').removeAttr('style')
+			.find('.arrow').removeAttr('style');
+		
 		$(this).parent().toggleClass('active');
+		
+		if($(this).parent().hasClass('active')) {
+			$block = $(this).closest('.authorList3');
+			$popup = $(this).parent().find('.listItem2');
+			$blockOffsetLeft = $block.offset().left;
+			$blockOffsetRight = $block.offset().left + $block.outerWidth();
+			$popupOffsetLeft = $popup.offset().left;
+			$popupOffsetRight = $popup.offset().left + $popup.outerWidth();
+			
+			
+			if($blockOffsetLeft > $popupOffsetLeft) {
+				$margin_l_css = Number($popup.css('margin-left').replace('px', ''));
+				$margin_l = $margin_l_css + ($blockOffsetLeft - $popupOffsetLeft);
+				$popup.css('margin-left', $margin_l);
+				
+				$arrow = $popup.find('.arrow');
+				$arrow_margin_l_css = Number($arrow.css('margin-left').replace('px', ''));
+				$arrow_margin_l = $arrow_margin_l_css - ($blockOffsetLeft - $popupOffsetLeft);
+				$arrow.css('margin-left', $arrow_margin_l);
+			}
+			if($popupOffsetRight > $blockOffsetRight) {
+				$margin_l_css = Number($popup.css('margin-left').replace('px', ''));
+				$margin_l = $margin_l_css + ($blockOffsetRight - $popupOffsetRight);
+				$popup.css('margin-left', $margin_l);
+				
+				$arrow = $popup.find('.arrow');
+				$arrow_margin_l_css = Number($arrow.css('margin-left').replace('px', ''));
+				$arrow_margin_l = $arrow_margin_l_css - ($blockOffsetRight - $popupOffsetRight);
+				$arrow.css('margin-left', $arrow_margin_l);
+			}
+		}
 	});
 	
 	$('.center .study .teachers .item .Img').click(function(e) {
 		e.preventDefault();
 		$(this).closest('.teachers').find('.Img.active').not($(this)).removeClass('active');
+			
+		$(this).closest('.teachers')
+			.find('.popup').removeAttr('style')
+			.find('.arrow').removeAttr('style');
+		
 		$(this).toggleClass('active');
+		
+		$block = $(this).closest('dd');
+		$popup = $(this).find('.popup');
+		$position1 = $block.offset().left + $block.outerWidth();
+		$position2 = $popup.offset().left + $popup.outerWidth();
+		if($position2 > $position1) {
+			$margin_l_css = Number($popup.css('margin-left').replace('px', ''));
+			$margin_l = $margin_l_css - ($position2 - $position1);
+			$popup.css('margin-left', $margin_l);
+			
+			$arrow = $popup.find('.arrow');
+			$arrow_margin_l_css = Number($arrow.css('margin-left').replace('px', ''));
+			$arrow_margin_l = $arrow_margin_l_css + ($position2 - $position1);
+			$arrow.css('margin-left', $arrow_margin_l);
+		}
+
 	});
 	
 	$(document).click(function(e) {
