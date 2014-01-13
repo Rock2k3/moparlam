@@ -68,7 +68,7 @@ form {display:inline-block; vertical-align:top;}
  
 .tabsBlock dt .CFEselect_lItem,
 .tabsBlock dt .CFEselectTextItem,
-.tabsBlock dt .CFEselect_rItem {background:url(../images/cfelement/cfe_selects1.png) no-repeat; display:inline-block; vertical-align:top; cursor:pointer; font:12px 'PTSans'; color:#000000; line-height:35px;}
+.tabsBlock dt .CFEselect_rItem {background:url(../images/cfelement/cfe_selects1.png) no-repeat; display:inline-block; vertical-align:top; cursor:pointer; font:12px 'PTSans'; color:#000000; line-height:37px;}
 
 .tabsBlock dt .CFEselect_focus .CFEselect_lItem,
 .tabsBlock dt .CFEselect_focus .CFEselectTextItem,
