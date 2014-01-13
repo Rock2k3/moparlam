@@ -133,7 +133,7 @@ header .block1 menu li ul li:first-child {background:none;}
 header .block1 menu li ul li a {margin:0 -10px -2px -10px;}
 header .block1 menu li ul li a:hover {background-color:#60a2cf;}
 
-header .block2 .container {background-color:#ffffff;}
+header .block2 {background-color:#ffffff;}
 header .block2 .container {padding:15px 0; background-color:#ffffff;}
 
 header .block2 .logo {background:url(../images/logo.png) no-repeat; width:293px; height:77px; margin-left:25px; float:left;}
