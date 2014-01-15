@@ -101,7 +101,8 @@ ol li p {margin:0; font-weight:normal;}
 /*typography*/
 
 /*header*/
-header .block1 {background-color:#006ab2;}
+header {padding-top:55px;}
+header .block1 {background-color:#006ab2; position:fixed; top:0; width:100%; z-index:100;}
 header .block1 .container {padding:9px 0; background-color:#006ab2;}
 
 header .block1 .search {background:url(../images/h_search.png) no-repeat; width:170px; height:23px; padding:12px 10px 0 10px; position:relative; float:right; margin-right:25px;}
