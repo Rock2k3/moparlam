@@ -1069,8 +1069,8 @@ span.chk.chkChecked {background-position:-13px 0;}
 
 
 
-.popup_ajax1 {width:830px; padding:15px 30px 25px 40px; background-color:#ffffff;}
-.popup_ajax1 header {margin-bottom:15px;}
+.popup_ajax1 {width:830px; padding:0 30px 25px 40px; background-color:#ffffff;}
+.popup_ajax1 header {margin-bottom:15px; padding:0;}
 .popup_ajax1 header .close {float:right; padding-top:7px; font-size:14px; line-height:14px; color:#808080;}
 .popup_ajax1 header .close a {background:url(../images/fancybox/btn_close.gif) 0 4px no-repeat; display:inline-block; vertical-align:top; text-decoration:none; color:#000000; padding-left:12px; margin-left:10px}
 .popup_ajax1 header .close a span {border-bottom:1px dotted #000000; display:inline-block; vertical-align:top; line-height:14px;}
